@@ -35,7 +35,7 @@ Det finns några parametrar som kan användas för att beskriva detta.
 
 En parameter är hur mogen utvecklingsprocessen är. Det finns en internationellt
 erkänd modell som heter Capability Maturity Model [[3]], som i 5 nivåer mäter
-mognadsgraden. Den här ger en inblick i hur mogen processen för utvecklingen av
+mognadsgraden. Den ger en inblick i hur mogen processen för utvecklingen av
 kodbasen är.
 
 #### Mognad
@@ -133,17 +133,6 @@ när man gör en merge. Därför bör man välja en branchingstrategi [[12]] fö
 kodbas. För de lärosäten som författarna tillhör så används huvudsakligen
 strategierna ”no branching” och ”feature branching”.
 
-### Behörighet
-
-Vem får göra vad och när? Ett samarbete runt en kodbas börjar troligtvis med att
-ett lärosäte använder kod som ett annat lärosäte har skrivit. Med tiden lär man
-sig koden och börjar komma med patchar och förslag på ny funktionalitet. Det kan
-på längre sikt innebära att båda lärosätena utvecklar koden. Det finns exempel
-inom sektorn där detta har varit fallet. Då behöver man fundera på vem ska få
-rättigheter att modifiera koden. Man kan ge behörighet till ett privat
-källkodsrepository genom att lägga till enskilda personer, eller så kan man be
-folk att skicka in pull requests eller motsvarande med önskade förändringar.
-
 ### Kodkvalitet
 
 Det finns olika sätt att mäta kodkvalitet, och ju fler av dessa som en kodbas
@@ -168,6 +157,17 @@ gör att alla pull requests automatiskt byggs och kodbasens tester körs. Om
 testerna vid ett sådant bygge misslyckas, kan man skicka tillbaka bollen till
 den som skapade pull requesten och be dem laga sina förändringar och göra en ny
 pull request. Det är dock inte säkert att alla kodbaser har automatiska tester.
+
+### Behörighet
+
+Vem får göra vad och när? Ett samarbete runt en kodbas börjar troligtvis med att
+ett lärosäte använder kod som ett annat lärosäte har skrivit. Med tiden lär man
+sig koden och börjar komma med patchar och förslag på ny funktionalitet. Det kan
+på längre sikt innebära att båda lärosätena utvecklar koden. Det finns exempel
+inom sektorn där detta har varit fallet. Då behöver man fundera på vem ska få
+rättigheter att modifiera koden. Man kan ge behörighet till ett privat
+källkodsrepository genom att lägga till enskilda personer, eller så kan man be
+folk att skicka in pull requests eller motsvarande med önskade förändringar.
 
 #### Rekommendationer
 
@@ -374,7 +374,7 @@ sätt. Det är något som behöver lösas på sikt.
 
 <!-- Referenser -->
 
-[1]: https://www.digg.se/nyheter--publikationer/nyheter/digg-tar-policybeslut-kring-oppen-kallkod
+[1]: https://www.digg.se/om-oss/nyheter/2019/digg-tar-policybeslut-kring-oppen-kallkod
 [2]: https://opensource.org/licenses/MIT
 [3]: https://sv.wikipedia.org/wiki/Capability_Maturity_Model
 [4]: https://opensource.org/osd
